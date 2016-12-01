@@ -1,0 +1,20 @@
+body{
+	background-color: #4F0000;
+}
+.post{
+	font-family: 'Lobster'
+}
+ .post span{
+ 	font-family: 'Indie+Flower';
+ }
+
+header{
+	background-color: white;
+}
+.cover{
+	background-image: url('../img/5.jpg') ;
+	clear: both;
+	color: white;
+	width: 200px;
+    height: 200px;
+}
