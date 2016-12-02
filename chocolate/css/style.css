@@ -1,10 +1,18 @@
 body{
-	background-color: #4F0000;
+	background-color: #3F1100;
 }
-.post{
-	font-family: 'Lobster'
+.first{
+	background-color: #FFEAE5;
 }
- .post span{
+pre{
+	margin-top: 30px;
+	font-family: 'Lobster';
+}
+.nav{
+	padding: 50px 50px;
+	font-size: 30px;
+}
+ span{
  	font-family: 'Indie+Flower';
  }
 
@@ -12,9 +20,49 @@ header{
 	background-color: white;
 }
 .cover{
-	background-image: url('../img/5.jpg') ;
+
+	font-size: 70px;
+	background: url('../img/5.jpg') right bottom ;
+	background-size: 250px 150px;
+	background-repeat: no-repeat;
 	clear: both;
-	color: white;
-	width: 200px;
-    height: 200px;
+	color: #A40D00 ;
+	width: 40%;
+    height: 190px;
+    font-family: 'Pacifico';
+}
+
+.part1{
+	clear: both;
+	background-color: #A40D00;
+	margin-top: 20px;
+
+}
+.part2{
+
+	padding: 0 0;
+	background-color: #A40D00;
+	clear: both;
+	margin-top: 20px;
+}
+
+.part3{
+	margin-top: 20px;
+	background-color: #A40D00;
+	clear: both;
+}
+.ulist{
+	display: inline;
+}
+.ulist a.active {
+    color: white;
+}
+
+.ulist a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    
+}
+.post{
+	background-color: white;
 }
