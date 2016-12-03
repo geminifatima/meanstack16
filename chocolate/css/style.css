@@ -4,25 +4,38 @@ body{
 .first{
 	background-color: #FFEAE5;
 }
+.post{
+	background-color: white;
+}
+
+.navi{
+	position: right bottom;
+}
+.pres{
+	border: none;
+	background-color: white;
+}
 pre{
-	margin-top: 30px;
+	font-size:20px;
+	margin-top: 15px;
 	font-family: 'Lobster';
 }
 .nav{
-	padding: 50px 50px;
+	float: right;
+	padding: 15px 45px;
 	font-size: 30px;
+	
 }
  span{
+ 	font-size:17px;
  	font-family: 'Indie+Flower';
  }
 
-header{
-	background-color: white;
-}
 .cover{
 
 	font-size: 70px;
-	background: url('../img/5.jpg') right bottom ;
+	font-size-adjust: top left;
+	background: url('../img/5.jpg') right bottom  ;
 	background-size: 250px 150px;
 	background-repeat: no-repeat;
 	clear: both;
@@ -31,12 +44,14 @@ header{
     height: 190px;
     font-family: 'Pacifico';
 }
-
+h4{
+	color: white;
+}
 .part1{
 	clear: both;
 	background-color: #A40D00;
 	margin-top: 20px;
-
+    color: white;
 }
 .part2{
 
@@ -44,12 +59,13 @@ header{
 	background-color: #A40D00;
 	clear: both;
 	margin-top: 20px;
+	color: white;
 }
 
-.part3{
+.part3{clear: both;
 	margin-top: 20px;
 	background-color: #A40D00;
-	clear: both;
+	color: white;
 }
 .ulist{
 	display: inline;
@@ -63,6 +79,8 @@ header{
     color: white;
     
 }
-.post{
-	background-color: white;
+.container{
+	clear: both;
+	margin-top:20px; 
+	color: #A40D00;
 }
